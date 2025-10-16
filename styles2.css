@@ -33,6 +33,7 @@ body{
     font-family: "myFont";
     /* padding-top: 80px; */
     color: rgb(170, 23, 23);
+    border: green 5px solid;
     
 }
 
@@ -52,6 +53,8 @@ button{
     width: 80px;
     height: 50px;
     color: white;
+    font-family: "myFont";
+    font-size: large;
 }
 .btns{
     margin-top: 20px;
