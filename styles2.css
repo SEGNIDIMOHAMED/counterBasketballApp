@@ -1,0 +1,58 @@
+@font-face {
+    font-family: "myFont";
+    src: url("digital-7.regular.ttf");
+}
+
+
+body{
+    background-color: rgb(0, 0, 47);
+    color: white;
+    font-family: "Open Sans", sans-serif;
+   font-optical-sizing: auto;
+   font-weight: 500;
+   font-style: normal;
+   font-variation-settings:
+    "wdth" 100;
+    text-align: center;
+    font-size: xx-large;
+}
+
+
+.container {
+    display:flex;
+    justify-content: space-around;
+}
+
+.nbre{
+    background-color: black;
+    /* height: 300px; */
+    width: 300px;
+    margin-top: 0px;
+    border-radius: 10px;
+    font-size: 200px;
+    font-family: "myFont";
+    /* padding-top: 80px; */
+    color: rgb(170, 23, 23);
+    
+}
+
+/* .exemple{
+    border: 2px red solid;
+} */
+
+h1{
+    margin-bottom: 10px;
+}
+button{
+    background-color:rgb(0, 0, 47) ;
+    border: 2px solid white;
+    border-radius: 5px ;
+    margin-left: 5px;
+    /* margin-right: 5px; */
+    width: 80px;
+    height: 50px;
+    color: white;
+}
+.btns{
+    margin-top: 20px;
+}
